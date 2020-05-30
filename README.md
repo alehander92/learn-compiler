@@ -29,10 +29,20 @@ plan is to also generalize it to
 * other languages/subsets of languages
 * other stuff
 
+## todo
+
+- [ ] simple types
+- [ ] c generation ?
+- [ ] run in parallel
+- [ ] caching
+- [ ] ir generation: very unsure about 
+- [ ] assembler: custom? can be ok
 ### build
 
 ```bash
-nim cpp -d:useMalloc --boundchecks:off --exceptions:cpp --threads:on --tlsEmulation:off   --debugInfo --lineDir:on --nimcache:nimcache -d:release  --passC:"-fopenmp" --passL:"-fopenmp" learn.nim
+nim cpp -d:useMalloc --boundchecks:off --exceptions:cpp --threads:on --tlsEmulation:off --nimcache:nimcache -d:release  --passC:"-fopenmp" --passL:"-fopenmp" learn.nim
 ```
 
+zoom: load videos etc from bible ok or web crossref ok or other ok
 
+zig, rust
